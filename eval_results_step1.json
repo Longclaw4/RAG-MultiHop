@@ -1,0 +1,128 @@
+[
+  {
+    "q": "Who is the CEO of the company that acquired Instagram?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": true,
+    "plain k=5 answer": "The company that acquired Instagram was Facebook, and Mark Zuckerberg is the CEO of its parent company, Meta Platforms.",
+    "graphrag": true,
+    "graphrag answer": "The company that acquired Instagram is Facebook, and the context lists Meta Platforms as the company that owns Instagram. Mark Zuckerberg is the CEO of Meta Platforms."
+  },
+  {
+    "q": "Where is the company founded by Dario Amodei headquartered?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": false,
+    "plain k=5 answer": "NOT_ENOUGH_INFO",
+    "graphrag": true,
+    "graphrag answer": "Anthropic, the company Dario Amodei co-founded, is headquartered in San Francisco."
+  },
+  {
+    "q": "Who founded the company that owns YouTube?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": true,
+    "plain k=5 answer": "The company that owns YouTube is Google, which was founded in 1998 by American computer scientists Larry Page and Sergey Brin.",
+    "graphrag": true,
+    "graphrag answer": "The company that owns YouTube is Google, and the context lists Larry Page and Sergey Brin as its founders."
+  },
+  {
+    "q": "Where is the headquarters of the company that owns Instagram?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": true,
+    "plain k=5 answer": "Menlo Park, California. Meta Platforms, Inc., which owns Instagram, is headquartered there.",
+    "graphrag": true,
+    "graphrag answer": "The company that owns Instagram, Meta Platforms, is headquartered in Menlo Park."
+  },
+  {
+    "q": "Who is the CEO of the company that owns WhatsApp?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": false,
+    "plain k=5 answer": "NOT_ENOUGH_INFO",
+    "graphrag": true,
+    "graphrag answer": "The CEO of Meta Platforms, which owns WhatsApp, is Mark Zuckerberg."
+  },
+  {
+    "q": "Which company is the parent of the company that offers Google Earth?",
+    "plain k=2": true,
+    "plain k=2 answer": "Alphabet Inc. is the parent company of Google, which offers Google Earth.",
+    "plain k=5": true,
+    "plain k=5 answer": "The parent company of Google, which offers Google Earth, is **Alphabet Inc.**",
+    "graphrag": true,
+    "graphrag answer": "The parent company is **Alphabet Inc.** The context says Google offers Google Earth, and that Alphabet Inc. is the parent company of Google."
+  },
+  {
+    "q": "Who co-founded the company where Daniela Amodei is president?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": true,
+    "plain k=5 answer": "The context doesn't say Daniela Amodei is president of Anthropic. It does say she co-founded Anthropic in 2021 with her brother Dario Amodei and five other former OpenAI employees, including Jared Kaplan and Chris Olah.",
+    "graphrag": true,
+    "graphrag answer": "Daniela Amodei is president of Anthropic. Anthropic was co-founded by her brother Dario Amodei, along with Jared Kaplan and Chris Olah, and five other former OpenAI employees whose names aren't given in the context."
+  },
+  {
+    "q": "Who founded the company that acquired DeepMind?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": false,
+    "plain k=5 answer": "NOT_ENOUGH_INFO",
+    "graphrag": true,
+    "graphrag answer": "Google acquired DeepMind. According to the context, Google was founded by Larry Page and Sergey Brin."
+  },
+  {
+    "q": "Where is the headquarters of the company Mark Zuckerberg chairs?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": false,
+    "plain k=5 answer": "NOT_ENOUGH_INFO",
+    "graphrag": true,
+    "graphrag answer": "Menlo Park, California. The context states that Meta Platforms is headquartered in Menlo Park and that Mark Zuckerberg is its chairman."
+  },
+  {
+    "q": "Where is the headquarters of the company that owns the company that acquired Instagram?",
+    "plain k=2": false,
+    "plain k=2 answer": "NOT_ENOUGH_INFO",
+    "plain k=5": true,
+    "plain k=5 answer": "The headquarters is in **Menlo Park, California**. Facebook acquired Instagram in April 2012, and Meta Platforms, which is headquartered in Menlo Park, owns and operates Facebook.",
+    "graphrag": true,
+    "graphrag answer": "Menlo Park. Facebook acquired Instagram, Meta Platforms owns Facebook, and Meta Platforms is headquartered in Menlo Park."
+  },
+  {
+    "q": "Who is the CEO of Microsoft?",
+    "plain k=2": true,
+    "plain k=2 answer": "Satya Nadella is the chairman and CEO of Microsoft.",
+    "plain k=5": true,
+    "plain k=5 answer": "Satya Nadella is the chairman and CEO of Microsoft.",
+    "graphrag": true,
+    "graphrag answer": "Satya Nadella is the CEO of Microsoft (he is also chairman)."
+  },
+  {
+    "q": "Where is Anthropic headquartered?",
+    "plain k=2": true,
+    "plain k=2 answer": "San Francisco, California.",
+    "plain k=5": true,
+    "plain k=5 answer": "San Francisco, California.",
+    "graphrag": true,
+    "graphrag answer": "San Francisco, California."
+  },
+  {
+    "q": "Which company develops Claude?",
+    "plain k=2": true,
+    "plain k=2 answer": "Anthropic develops Claude. The context says Anthropic refused the DoD's demands to drop restrictions on Claude's use and accused Chinese competitors of distilling Claude.",
+    "plain k=5": true,
+    "plain k=5 answer": "Anthropic develops Claude.",
+    "graphrag": true,
+    "graphrag answer": "Anthropic develops Claude."
+  },
+  {
+    "q": "Who is the CEO of Anthropic?",
+    "plain k=2": true,
+    "plain k=2 answer": "Dario Amodei is the CEO of Anthropic.",
+    "plain k=5": true,
+    "plain k=5 answer": "Dario Amodei is the CEO of Anthropic. Daniela Amodei is the president.",
+    "graphrag": true,
+    "graphrag answer": "Dario Amodei is the CEO of Anthropic."
+  }
+]

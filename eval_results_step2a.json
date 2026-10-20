@@ -1,0 +1,910 @@
+{
+  "runs": [
+    [
+      {
+        "q": "Who is the CEO of the company that acquired Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "The CEO of Meta Platforms, which owns Instagram, is Mark Zuckerberg. Facebook acquired Instagram in 2012, and Facebook's parent company is now Meta Platforms.",
+        "graphrag": true,
+        "graphrag answer": "The CEO of Meta Platforms, which owns Instagram, is Mark Zuckerberg."
+      },
+      {
+        "q": "Where is the company founded by Dario Amodei headquartered?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "San Francisco"
+      },
+      {
+        "q": "Who founded the company that owns YouTube?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Google was founded in 1998 by Larry Page and Sergey Brin.",
+        "graphrag": true,
+        "graphrag answer": "Google, which owns YouTube, was founded by Larry Page and Sergey Brin."
+      },
+      {
+        "q": "Where is the headquarters of the company that owns Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California.",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park"
+      },
+      {
+        "q": "Who is the CEO of the company that owns WhatsApp?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Mark Zuckerberg."
+      },
+      {
+        "q": "Which company is the parent of the company that offers Google Earth?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Alphabet Inc.",
+        "plain k=5": true,
+        "plain k=5 answer": "Alphabet Inc.",
+        "graphrag": true,
+        "graphrag answer": "Alphabet Inc."
+      },
+      {
+        "q": "Who co-founded the company where Daniela Amodei is president?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Anthropic was co-founded by Dario Amodei and Daniela Amodei, along with five other former OpenAI employees, including Jared Kaplan and Chris Olah.",
+        "plain k=5": true,
+        "plain k=5 answer": "Anthropic was co-founded by Dario Amodei and Daniela Amodei, along with Jared Kaplan, Chris Olah, and five other former OpenAI employees.",
+        "graphrag": true,
+        "graphrag answer": "Daniela Amodei, who is president of Anthropic, co-founded it with her brother Dario Amodei. They were joined by five other former OpenAI employees, including Jared Kaplan and Chris Olah."
+      },
+      {
+        "q": "Who founded the company that acquired DeepMind?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Google acquired DeepMind, and Google was founded by Larry Page and Sergey Brin."
+      },
+      {
+        "q": "Where is the headquarters of the company Mark Zuckerberg chairs?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park, California."
+      },
+      {
+        "q": "Where is the headquarters of the company that owns the company that acquired Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California.",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park, California."
+      },
+      {
+        "q": "Who is the CEO of Microsoft?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Satya Nadella is the CEO of Microsoft.",
+        "plain k=5": true,
+        "plain k=5 answer": "Satya Nadella is the CEO of Microsoft.",
+        "graphrag": true,
+        "graphrag answer": "Satya Nadella is the CEO of Microsoft."
+      },
+      {
+        "q": "Where is Anthropic headquartered?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "San Francisco, California.",
+        "plain k=5": true,
+        "plain k=5 answer": "San Francisco, California.",
+        "graphrag": true,
+        "graphrag answer": "San Francisco, California."
+      },
+      {
+        "q": "Which company develops Claude?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Anthropic develops Claude.",
+        "plain k=5": true,
+        "plain k=5 answer": "Anthropic develops Claude.",
+        "graphrag": true,
+        "graphrag answer": "Anthropic"
+      },
+      {
+        "q": "Who is the CEO of Anthropic?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Dario Amodei is the CEO of Anthropic.",
+        "plain k=5": true,
+        "plain k=5 answer": "Dario Amodei is the CEO of Anthropic.",
+        "graphrag": true,
+        "graphrag answer": "Dario Amodei"
+      },
+      {
+        "q": "Where is the headquarters of the company that owns WhatsApp?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park"
+      },
+      {
+        "q": "In what year was YouTube bought by the company founded by Larry Page and Sergey Brin?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "2006",
+        "graphrag": true,
+        "graphrag answer": "2006"
+      },
+      {
+        "q": "Who is the CEO of the company that owns YouTube?",
+        "type": "docs2",
+        "plain k=2": true,
+        "plain k=2 answer": "Sundar Pichai is the CEO of Google, which owns YouTube. He is also the CEO of Alphabet, Google's parent company.",
+        "plain k=5": true,
+        "plain k=5 answer": "Sundar Pichai is the CEO of Google, which owns YouTube.",
+        "graphrag": true,
+        "graphrag answer": "Sundar Pichai is the CEO of Google, which owns YouTube."
+      },
+      {
+        "q": "What year was the company that acquired DeepMind founded?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Google was founded in 1998."
+      },
+      {
+        "q": "In what year did the company that owns Instagram rebrand under its current name?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "2021",
+        "graphrag": true,
+        "graphrag answer": "2021"
+      },
+      {
+        "q": "What is the estimated net worth of the chairman of the company that rebranded as Meta Platforms?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Mark Zuckerberg, chairman of Meta Platforms, has an estimated net worth of US$258 billion."
+      },
+      {
+        "q": "Where is the headquarters of the company where Dario Amodei was previously vice president of research?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "San Francisco."
+      },
+      {
+        "q": "Who is the president of the company that Dario Amodei co-founded?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Daniela Amodei"
+      },
+      {
+        "q": "When was Instagram launched for iOS?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "October 2010",
+        "plain k=5": true,
+        "plain k=5 answer": "October 2010",
+        "graphrag": true,
+        "graphrag answer": "Instagram was launched for iOS in October 2010."
+      },
+      {
+        "q": "How many monthly active users did WhatsApp have as of May 2025?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "3 billion monthly active users.",
+        "plain k=5": true,
+        "plain k=5 answer": "3 billion monthly active users.",
+        "graphrag": true,
+        "graphrag answer": "3 billion"
+      },
+      {
+        "q": "Where is YouTube headquartered?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "San Bruno, California.",
+        "plain k=5": true,
+        "plain k=5 answer": "San Bruno, California.",
+        "graphrag": true,
+        "graphrag answer": "San Bruno, California"
+      },
+      {
+        "q": "Who launched Facebook at Harvard in February 2004?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "Mark Zuckerberg launched Facebook at Harvard in February 2004, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.",
+        "plain k=5": true,
+        "plain k=5 answer": "Mark Zuckerberg launched Facebook at Harvard in February 2004, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes.",
+        "graphrag": true,
+        "graphrag answer": "Mark Zuckerberg, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes."
+      },
+      {
+        "q": "What is the population of Menlo Park?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "What was Anthropic's revenue in 2025?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "Which university did Daniela Amodei attend?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "How many employees does Anthropic have?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      }
+    ],
+    [
+      {
+        "q": "Who is the CEO of the company that acquired Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Mark Zuckerberg is the CEO of Meta Platforms, the parent company that owns Instagram.",
+        "graphrag": true,
+        "graphrag answer": "The CEO is **Mark Zuckerberg**. Facebook acquired Instagram, and Facebook's parent company, Meta Platforms, is led by him."
+      },
+      {
+        "q": "Where is the company founded by Dario Amodei headquartered?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "San Francisco"
+      },
+      {
+        "q": "Who founded the company that owns YouTube?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Google, the company that owns YouTube, was founded in 1998 by Larry Page and Sergey Brin.",
+        "graphrag": true,
+        "graphrag answer": "Google, which owns YouTube, was founded by Larry Page and Sergey Brin."
+      },
+      {
+        "q": "Where is the headquarters of the company that owns Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California.",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park"
+      },
+      {
+        "q": "Who is the CEO of the company that owns WhatsApp?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Mark Zuckerberg."
+      },
+      {
+        "q": "Which company is the parent of the company that offers Google Earth?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Alphabet Inc.",
+        "plain k=5": true,
+        "plain k=5 answer": "Alphabet Inc.",
+        "graphrag": true,
+        "graphrag answer": "Alphabet Inc."
+      },
+      {
+        "q": "Who co-founded the company where Daniela Amodei is president?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Anthropic was co-founded by Dario Amodei, Jared Kaplan, and Chris Olah, along with Daniela Amodei and several other former OpenAI employees."
+      },
+      {
+        "q": "Who founded the company that acquired DeepMind?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Google acquired DeepMind, and Google was founded by Larry Page and Sergey Brin."
+      },
+      {
+        "q": "Where is the headquarters of the company Mark Zuckerberg chairs?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park"
+      },
+      {
+        "q": "Where is the headquarters of the company that owns the company that acquired Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California.",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park, California."
+      },
+      {
+        "q": "Who is the CEO of Microsoft?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Satya Nadella is the CEO of Microsoft.",
+        "plain k=5": true,
+        "plain k=5 answer": "Satya Nadella is the CEO of Microsoft.",
+        "graphrag": true,
+        "graphrag answer": "Satya Nadella"
+      },
+      {
+        "q": "Where is Anthropic headquartered?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "San Francisco, California.",
+        "plain k=5": true,
+        "plain k=5 answer": "San Francisco, California.",
+        "graphrag": true,
+        "graphrag answer": "San Francisco, California."
+      },
+      {
+        "q": "Which company develops Claude?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Anthropic develops Claude.",
+        "plain k=5": true,
+        "plain k=5 answer": "Anthropic develops Claude.",
+        "graphrag": true,
+        "graphrag answer": "Anthropic"
+      },
+      {
+        "q": "Who is the CEO of Anthropic?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Dario Amodei is the CEO of Anthropic.",
+        "plain k=5": true,
+        "plain k=5 answer": "Dario Amodei is the CEO of Anthropic.",
+        "graphrag": true,
+        "graphrag answer": "Dario Amodei is the CEO of Anthropic."
+      },
+      {
+        "q": "Where is the headquarters of the company that owns WhatsApp?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park"
+      },
+      {
+        "q": "In what year was YouTube bought by the company founded by Larry Page and Sergey Brin?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "2006",
+        "graphrag": true,
+        "graphrag answer": "2006"
+      },
+      {
+        "q": "Who is the CEO of the company that owns YouTube?",
+        "type": "docs2",
+        "plain k=2": true,
+        "plain k=2 answer": "Sundar Pichai.",
+        "plain k=5": true,
+        "plain k=5 answer": "Sundar Pichai is the CEO of Google, which owns YouTube.",
+        "graphrag": true,
+        "graphrag answer": "Sundar Pichai."
+      },
+      {
+        "q": "What year was the company that acquired DeepMind founded?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Google was founded in 1998."
+      },
+      {
+        "q": "In what year did the company that owns Instagram rebrand under its current name?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "2021",
+        "graphrag": true,
+        "graphrag answer": "2021"
+      },
+      {
+        "q": "What is the estimated net worth of the chairman of the company that rebranded as Meta Platforms?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Mark Zuckerberg's estimated net worth is US$258 billion."
+      },
+      {
+        "q": "Where is the headquarters of the company where Dario Amodei was previously vice president of research?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "San Francisco."
+      },
+      {
+        "q": "Who is the president of the company that Dario Amodei co-founded?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Daniela Amodei"
+      },
+      {
+        "q": "When was Instagram launched for iOS?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "October 2010",
+        "plain k=5": true,
+        "plain k=5 answer": "October 2010",
+        "graphrag": true,
+        "graphrag answer": "October 2010"
+      },
+      {
+        "q": "How many monthly active users did WhatsApp have as of May 2025?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "3 billion monthly active users.",
+        "plain k=5": true,
+        "plain k=5 answer": "As of May 2025, WhatsApp had 3 billion monthly active users.",
+        "graphrag": true,
+        "graphrag answer": "3 billion"
+      },
+      {
+        "q": "Where is YouTube headquartered?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "San Bruno, California.",
+        "plain k=5": true,
+        "plain k=5 answer": "San Bruno, California.",
+        "graphrag": true,
+        "graphrag answer": "San Bruno, California"
+      },
+      {
+        "q": "Who launched Facebook at Harvard in February 2004?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "Mark Zuckerberg launched Facebook at Harvard in February 2004, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.",
+        "plain k=5": true,
+        "plain k=5 answer": "Mark Zuckerberg launched Facebook at Harvard in February 2004, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes.",
+        "graphrag": true,
+        "graphrag answer": "Mark Zuckerberg launched Facebook at Harvard in February 2004, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes."
+      },
+      {
+        "q": "What is the population of Menlo Park?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "What was Anthropic's revenue in 2025?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "Which university did Daniela Amodei attend?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "How many employees does Anthropic have?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      }
+    ],
+    [
+      {
+        "q": "Who is the CEO of the company that acquired Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Mark Zuckerberg is the CEO of Meta Platforms, which owns Instagram.",
+        "graphrag": true,
+        "graphrag answer": "The CEO of Meta Platforms, which owns Instagram, is Mark Zuckerberg."
+      },
+      {
+        "q": "Where is the company founded by Dario Amodei headquartered?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "San Francisco"
+      },
+      {
+        "q": "Who founded the company that owns YouTube?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Google was founded in 1998 by Larry Page and Sergey Brin.",
+        "graphrag": true,
+        "graphrag answer": "Google, which owns YouTube, was founded by Larry Page and Sergey Brin."
+      },
+      {
+        "q": "Where is the headquarters of the company that owns Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park"
+      },
+      {
+        "q": "Who is the CEO of the company that owns WhatsApp?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Mark Zuckerberg."
+      },
+      {
+        "q": "Which company is the parent of the company that offers Google Earth?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Alphabet Inc.",
+        "plain k=5": true,
+        "plain k=5 answer": "Alphabet Inc.",
+        "graphrag": true,
+        "graphrag answer": "Alphabet Inc."
+      },
+      {
+        "q": "Who co-founded the company where Daniela Amodei is president?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Anthropic was co-founded by Dario Amodei and Daniela Amodei, along with five other former OpenAI employees, including Jared Kaplan and Chris Olah.",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Anthropic, where Daniela Amodei is president, was co-founded by Dario Amodei, Daniela Amodei herself, and five other former OpenAI employees, including Jared Kaplan and Chris Olah."
+      },
+      {
+        "q": "Who founded the company that acquired DeepMind?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Google acquired DeepMind, and Google was founded by Larry Page and Sergey Brin."
+      },
+      {
+        "q": "Where is the headquarters of the company Mark Zuckerberg chairs?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park, California."
+      },
+      {
+        "q": "Where is the headquarters of the company that owns the company that acquired Instagram?",
+        "type": "multihop",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California.",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park, California."
+      },
+      {
+        "q": "Who is the CEO of Microsoft?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Satya Nadella is the CEO of Microsoft.",
+        "plain k=5": true,
+        "plain k=5 answer": "Satya Nadella is the CEO of Microsoft.",
+        "graphrag": true,
+        "graphrag answer": "Satya Nadella is the CEO of Microsoft."
+      },
+      {
+        "q": "Where is Anthropic headquartered?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "San Francisco, California.",
+        "plain k=5": true,
+        "plain k=5 answer": "San Francisco, California.",
+        "graphrag": true,
+        "graphrag answer": "San Francisco, California."
+      },
+      {
+        "q": "Which company develops Claude?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Anthropic.",
+        "plain k=5": true,
+        "plain k=5 answer": "Anthropic develops Claude.",
+        "graphrag": true,
+        "graphrag answer": "Anthropic develops Claude."
+      },
+      {
+        "q": "Who is the CEO of Anthropic?",
+        "type": "multihop",
+        "plain k=2": true,
+        "plain k=2 answer": "Dario Amodei is the CEO of Anthropic.",
+        "plain k=5": true,
+        "plain k=5 answer": "Dario Amodei is the CEO of Anthropic.",
+        "graphrag": true,
+        "graphrag answer": "Dario Amodei"
+      },
+      {
+        "q": "Where is the headquarters of the company that owns WhatsApp?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Menlo Park, California",
+        "graphrag": true,
+        "graphrag answer": "Menlo Park."
+      },
+      {
+        "q": "In what year was YouTube bought by the company founded by Larry Page and Sergey Brin?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "2006",
+        "graphrag": true,
+        "graphrag answer": "2006"
+      },
+      {
+        "q": "Who is the CEO of the company that owns YouTube?",
+        "type": "docs2",
+        "plain k=2": true,
+        "plain k=2 answer": "Sundar Pichai.",
+        "plain k=5": true,
+        "plain k=5 answer": "Sundar Pichai is the CEO of Google, which owns YouTube. He also became CEO of Alphabet in 2019.",
+        "graphrag": true,
+        "graphrag answer": "Sundar Pichai."
+      },
+      {
+        "q": "What year was the company that acquired DeepMind founded?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Google, which acquired DeepMind, was founded in 1998."
+      },
+      {
+        "q": "In what year did the company that owns Instagram rebrand under its current name?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "2021",
+        "graphrag": true,
+        "graphrag answer": "Meta Platforms rebranded in 2021."
+      },
+      {
+        "q": "What is the estimated net worth of the chairman of the company that rebranded as Meta Platforms?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "Mark Zuckerberg's estimated net worth is US$258 billion, according to Forbes as of September 2026. The context also gives a figure of US$1.6 billion as of February 2026, which conflicts with this and is likely inaccurate.",
+        "graphrag": true,
+        "graphrag answer": "US$258 billion."
+      },
+      {
+        "q": "Where is the headquarters of the company where Dario Amodei was previously vice president of research?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "San Francisco."
+      },
+      {
+        "q": "Who is the president of the company that Dario Amodei co-founded?",
+        "type": "docs2",
+        "plain k=2": false,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": false,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "Daniela Amodei"
+      },
+      {
+        "q": "When was Instagram launched for iOS?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "October 2010",
+        "plain k=5": true,
+        "plain k=5 answer": "October 2010",
+        "graphrag": true,
+        "graphrag answer": "October 2010"
+      },
+      {
+        "q": "How many monthly active users did WhatsApp have as of May 2025?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "3 billion monthly active users.",
+        "plain k=5": true,
+        "plain k=5 answer": "3 billion monthly active users.",
+        "graphrag": true,
+        "graphrag answer": "3 billion"
+      },
+      {
+        "q": "Where is YouTube headquartered?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "San Bruno, California.",
+        "plain k=5": true,
+        "plain k=5 answer": "San Bruno, California.",
+        "graphrag": true,
+        "graphrag answer": "San Bruno, California"
+      },
+      {
+        "q": "Who launched Facebook at Harvard in February 2004?",
+        "type": "single",
+        "plain k=2": true,
+        "plain k=2 answer": "Mark Zuckerberg launched Facebook at Harvard in February 2004, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.",
+        "plain k=5": true,
+        "plain k=5 answer": "Mark Zuckerberg launched Facebook at Harvard in February 2004, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes.",
+        "graphrag": true,
+        "graphrag answer": "Mark Zuckerberg launched Facebook at Harvard in February 2004, with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes."
+      },
+      {
+        "q": "What is the population of Menlo Park?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "What was Anthropic's revenue in 2025?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "Which university did Daniela Amodei attend?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      },
+      {
+        "q": "How many employees does Anthropic have?",
+        "type": "unans",
+        "plain k=2": true,
+        "plain k=2 answer": "NOT_ENOUGH_INFO",
+        "plain k=5": true,
+        "plain k=5 answer": "NOT_ENOUGH_INFO",
+        "graphrag": true,
+        "graphrag answer": "NOT_ENOUGH_INFO"
+      }
+    ]
+  ]
+}
